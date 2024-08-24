@@ -1,8 +1,18 @@
-.cards{
-    flex-wrap: wrap;
-    gap: 60px;
-    display: flex;
-    margin-left: 130px;
-
-    
+body{
+    width: 95%;
+    margin: auto;
 }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+#btn1{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+}
+
